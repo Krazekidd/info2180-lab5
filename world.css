@@ -1,1 +1,76 @@
 /* Add your own styles */
+body header{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 200px;
+    margin-bottom: 30px;
+    background-color: rgb(77, 69, 69);
+    background-image: url("world-map.png");
+    
+}
+
+body header h1{
+    color: white;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; 
+    margin-bottom: 50px;
+}
+
+#button-container {
+    display: flex;
+}
+
+#country{
+    margin-bottom: 10px;
+    width: 400px;
+    height:40px;
+}
+
+#lookup{
+    border-radius: 5px;
+    background-color: rgb(135, 207, 231);
+    border-style: none;
+    width: 120px;
+    height:40px;
+    margin-top: 10px;
+}
+
+#citySearch{
+    border-radius: 5px;
+    background-color: rgb(175, 134, 175);
+    border-style: none;
+    width: 120px;
+    height:40px;
+    margin-top: 10px;
+}
+
+table th{
+    background-color: rgb(5, 6, 77);
+    color: white;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    width: 100px;
+    height:50px;
+}
+
+
+table td{
+    background-color: rgb(190, 177, 250);
+    color:black;
+    border-radius: 10px;
+    border-left: none;
+    border-top: none;
+    border-right: none;  
+
+}
+
+table{
+    border-radius: 5px;
+}
